@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #ffffff;
+}
+
+.nav {
+  background-color: rgb(240, 255, 255, 0.3);
+  font-family: "Dancing script", cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.listItem {
+  list-style-type: none;
+  padding: 1rem;
+  color: black;
+}
+
+.nav a {
+  text-decoration: none;
+  
+}
+
+.container {
+  height: 100vh;
+}
+
+.sections {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  height: 80%;
+}
+
+.backgroundColor {
+  background-color: black;
+  color: white;
+  padding: 0.6rem;
+  font-size: 3rem;
+}
+
+.colorCode {
+  padding-left: 1rem;
+  color: chartreuse;
+}
+
+.clickButton {
+  border-style: none;
+  outline: none;
+  color: black;
+  font-weight: 700;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  background-color: rgb(255, 255, 255, 0.25);
+  padding: 10px 24px;
+}
