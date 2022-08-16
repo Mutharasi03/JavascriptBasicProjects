@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.title{
+font-size: 5rem;
+color: #89b1a0;
+}
+.content{
+    font-size: 7rem;
+}
+.buttons{
+    display: flex;
+    gap: 5rem;
+}
+.btn{
+    background-color:transparent;
+    border: 2px solid rgb(26, 152, 202);
+    padding:10px 24px;
+    font-size: 1rem;
+    font-family: 300;
+}
