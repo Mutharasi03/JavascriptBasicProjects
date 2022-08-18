@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:serif;
+}
+main{
+    display:grid;
+    place-items: center;
+     min-height: 100vh; 
+}
+.container{
+display: grid;
+grid-template-columns:300px 360px;
+column-gap: 3rem;
+}
+.images img{
+    width: 100%;
+    height: 100%;
+    object-fit: 100%;
+}
+.images
+{
+    width: 100%;
+    height: 20rem;
+}
+.heading{
+    padding-bottom: 1rem;
+    color: white;
+    font-size: 1.5rem;
+}
+.card{
+     display: none;
+     padding: 3rem 1rem;
+     border-radius:0 0 2rem 2rem ;
+
+}
+.tabBtn{
+    display:inline-block;
+    background: transparent;
+    padding: 1rem 0.5rem;
+    border: none;
+
+}
+.buttons{
+   display: grid;
+   grid-template-columns: 120px 120px 120px;
+   border-radius: 2rem 2rem 0 0;
+   background-color: rgb(189, 185, 185);
+   overflow: auto;
+}
+.tabBtn:nth-child(1){
+    border-top-left-radius: 2rem;
+}
+.tabBtn:nth-child(3){
+    border-top-right-radius: 2rem;
+}
+.tabBtn.active{
+  
+    background-color:rgb(212, 114, 114) ;
+}
+.card.active{
+    background-color:rgb(212, 114, 114) ;
+    display: block;
+}
