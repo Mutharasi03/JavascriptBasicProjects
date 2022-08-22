@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    position: relative; 
+    display: grid;
+    place-items: center;
+    height: 80vh;   
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: 100%;    
+}
+.slide{
+    position: relative;
+    width: 600px;
+    height: 400px;   
+}
+.prev ,.next{
+    position:absolute;
+    top: 50%;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+   
+}
+.prev{
+    left: 20%;
+}
+.next{
+    right: 20%;
+}
+.dot{
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: rgb(146, 136, 136);
+    display: inline-block;
+    margin: 0.2rem;
+    border-radius: 50%;
+}
+.dots{
+    text-align: center;
+}
+.colorchange{
+    background-color: black;
+}
