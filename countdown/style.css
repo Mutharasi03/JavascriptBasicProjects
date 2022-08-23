@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    background-image: url("./background.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+.container,.deadlineInfo{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    gap: 3rem;
+}
+.giftInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 36rem;
+    gap: 1rem;
+}
+.heading{
+    font-size: 2rem;
+    font-weight: 600;
+}
+img{
+    width: 400px;
+    height: 300px;
+}
+ .deadline span{
+     display: block;
+}
+.deadline {
+    display: grid;
+    place-items: center;
+    align-content: space-evenly;
+    color: black;
+    background-color: rgb(255, 238, 0);
+    width: 6rem;
+    height: 5rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
