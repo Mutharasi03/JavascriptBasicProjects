@@ -23,8 +23,8 @@ var countdown = setInterval(function () {
     return items;
   }
 
-  items.forEach(function (items, index) {
-    items.innerHTML = format(value[index]);
+  items.forEach(function (elements, index) {
+    elements.innerHTML = format(value[index]);
   });
 
 }, 1000);
