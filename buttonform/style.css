@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #b5bafa;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    min-height: 100vh;
+    flex-direction: column;   
+}
+#formSection{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 4rem;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10%;
+}
+.input{
+    display:flex;
+    gap: 1rem;
+    justify-content: space-between;   
+    align-items: center;
+}
+#uname,#age{
+  padding: 0.5rem;
+  border:1px solid black;
+  outline: none;
+}
+#submit{
+ font-size: 1rem;
+ background-color: #8da8ff;  
+ min-width: 100px;
+ padding: 5px 15px;
+ float: right;
+}
+.createForm{
+    font-size: 1rem;
+    padding:5px 15px;
+    background: transparent;
+    background: rgba(188, 20, 255, 0.2);
+
+}
